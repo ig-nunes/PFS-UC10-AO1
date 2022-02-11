@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+.container-grid {
+    width: 84.375%;
+    height: 100%;
+}
+ 
+/** ---------------------------- CADASTRO ---------------------------- **/
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.cadastro-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-formulario-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 40px;
+    width: 60%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cadastro-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.cadastro-form-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cadastro-form-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cadastro-form-label-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+}
+
+.cadastro-form-input-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.cadastro-opcoes-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cadastrar-desktop {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cancelar-listar-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#cadastrar-desktop, #cancelar-cadastro-desktop, #todos-cadastros-desktop {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    width: 60%;
+    height: 100%;
+}
+
+.caixa-tabela-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.tabela-usuarios-desktop {
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 80%;
+    text-align: center;
+}
+
+.tabela-usuarios-desktop thead th {
+    text-align: center;
+}
+
+.tabela-linha-desktop {
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.tabela-linha-desktop td {
+    text-align: center;
+}
+
+.btn-excluir-desktop {
+    border-radius: 40px;
+    background-color: lightgrey;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.cadastro-tablet {
+    display: none;
+}
+
+/* ----------------------------Smartphone---------------------------- */
+
+.cadastro-smartphone {
+    display: none;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+
+    /** ---------------------------- CADASTRO ---------------------------- **/
+
+    /* ----------------------------Tablet---------------------------- */
+
+
+    .cadastro-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro-formulario-tablet {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cadastro-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        border-radius: 40px;
+        width: 80%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .cadastro-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 45px;
+        font-weight: 700;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .cadastro-form-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cadastro-form-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cadastro-form-label-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    .cadastro-form-input-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .cadastro-opcoes-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cadastrar-tablet {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .cancelar-listar-tablet {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    #cadastrar-tablet, #cancelar-cadastro-tablet, #todos-cadastros-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+        border-radius: 40px;
+        width: 60%;
+        height: 100%;
+    }
+
+
+    /* ----------------------------desktop---------------------------- */
+
+    .cadastro-desktop {
+        display: none;
+    }
+
+    /* ----------------------------Smartphone---------------------------- */
+
+    .cadastro-smartphone {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+
+    /** ---------------------------- CADASTRO ---------------------------- **/
+
+    /* ----------------------------Smartphone---------------------------- */
+
+
+    .cadastro-smartphone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro-formulario-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cadastro-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        border-radius: 40px;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .cadastro-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .cadastro-form-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cadastro-form-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cadastro-form-label-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+    }
+
+    .cadastro-form-input-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .cadastro-opcoes-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cadastrar-smartphone {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .cancelar-listar-smartphone {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    #cadastrar-smartphone, #cancelar-cadastro-smartphone, #todos-cadastros-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+        border-radius: 40px;
+        width: 60%;
+        height: 100%;
+    }
+
+
+    /* ----------------------------desktop---------------------------- */
+
+    .cadastro-desktop {
+        display: none;
+    }
+
+    /* ----------------------------Tablet---------------------------- */
+
+    .cadastro-tablet {
+        display: none;
+    }
+}

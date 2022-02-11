@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+.container-grid {
+    width: 84.375%;
+    height: 100%;
+}

@@ -1,0 +1,52 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "usuario": "Igor Nunes",
+      "password": "senha",
+      "email": "igor@email.com"
+    },
+    {
+      "id": 2,
+      "usuario": "Fernanda Vendas",
+      "password": "senha123",
+      "email": "vendas@email.com"
+    },
+    {
+      "id": 3,
+      "usuario": "Elson Junior",
+      "password": "senha",
+      "email": "elson@email.com"
+    },
+    {
+      "id": 4,
+      "usuario": "Vitoria Pinho",
+      "password": "admin123",
+      "email": "vitoria@email.com"
+    },
+    {
+      "usuario": "Hannah",
+      "password": "Hannah 123",
+      "email": "hannah@email.com",
+      "id": 5
+    },
+    {
+      "usuario": "Maya",
+      "email": "maya@email.com",
+      "password": "senha",
+      "id": 6
+    },
+    {
+      "usuario": "Lira123",
+      "email": "lira@email.com",
+      "password": "senha",
+      "id": 7
+    },
+    {
+      "usuario": "Mel",
+      "password": "senha",
+      "email": "mel@email.com",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+/** ---------------------------- FOOTER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.rodape-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.rodape-caixa {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.rodape-esquerda {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-esquerda-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda-logo {
+    width: 100%;
+}
+
+.rodape-esquerda-logo img {
+    width: 49.2%;
+}
+
+.rodape-esquerda-links-lista {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.rodape-esquerda-links-lista li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.rodape-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-direita-redes-sociais {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+.rodape-direita-redes-sociais-texto {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rodape-direita-redes-sociais img {
+    width: auto;
+    height: auto;
+    max-width: 190px;
+    max-height: 50px;
+}
+
+.rodape-direita-cartoes img {
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.rodape-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.rodape-smartphone {
+    display: none;
+}
+
+
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+@media screen and (min-width: 936px) and (max-width: 1100px){
+
+
+    /** ----------------------------Footer---------------------------- **/
+
+
+    .rodape-esquerda-links-lista {
+      font-size: 13px;
+    }
+
+    .rodape-direita {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  
+
+    .rodape-direita-redes-sociais-texto {
+      font-size: 17px;
+    }
+
+    .rodape-direita-cartoes {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .rodape-direita-redes-sociais {
+      height: 60%;
+      width: 80%;
+    }
+
+    .rodape-direita-redes-sociais img {
+      width: auto;
+      height: auto;
+      max-width: 150px;
+      max-height: 40px;
+    }
+  
+    .rodape-direita-cartoes img {
+      width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    
+    /** ----------------------------Footer Tablet---------------------------- **/
+    
+    .rodape-tablet {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rodape-secao-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .rodape-links-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .rodape-links-listas-tablet {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 50px;
+        line-height: 35px;
+    }
+    
+    .rodapes-ancoras-tablet{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .rodape-imagens-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        height: 190px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        border-color: white;
+        background-color: black;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .rodape-imagens-redes-sociais-texto-tablet {
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .rodape-redes-sociais-imagem-tablet img {
+        width: 100%;
+    }
+    
+    .rodape-imagens-cartoes {
+        width: 50%;
+    }
+    
+    .rodape-logo-tablet {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .rodape-smartphone {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 60%;
+        padding-bottom: 50px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .rodape-links-smartphone a {
+        text-decoration: none;
+    }
+
+    .rodape-links-smartphone a p {
+        font-family: 'Roboto';
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+    }
+
+    #rodape-links-institucional-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #rodape-links-informacoes-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rodape-nav-links-smartphone {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .link-1-smartphone {
+        margin-top: 25px;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 17px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .rodape-tablet {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone a p {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+}

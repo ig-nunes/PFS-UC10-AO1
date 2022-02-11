@@ -1,0 +1,365 @@
+/** ---------------------------- HEADER ---------------------------- **/
+
+/* ----------------------------Desktop---------------------------- */
+
+.desktop {
+    background-color: black;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-grid {
+    width: 84.375%;
+    height: 100%;
+}
+
+.header {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top a, .header-top a img {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.header-top-pesquisa {
+    width: 30%;
+}
+
+.header-top-pesquisa form input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-localizacao{
+    width: 6.2%;
+}
+
+.header-localizacao a img {
+    width: 100%;
+}
+
+.redes-sociais-header-img {
+    width: 16.1%;
+}
+
+#redes-sociais-header-img {
+    position: relative;
+    bottom: 15px;
+    left: 18px;
+    width: 100%;
+}
+
+#botao-pesquisa-desktop {
+    display: none;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.tablets {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+@media screen and (min-width: 936px) and (max-width: 1100px){
+
+    /**  ----------------------------Header----------------------------  **/
+
+
+    .header-top {
+      width: 35%;
+    }
+    .header-menu-links {
+      font-size: 20px;
+    }
+
+    .header-menu-carrinho {
+      position: relative;
+      left: 5px;
+    }
+    header{
+      height: 200px;
+    }
+    
+    .header-top-pesquisa form input{
+      font-size: 15px;
+      height: 35px;
+    }
+
+
+    
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    /** ----------------------------Header Tablet---------------------------- **/
+
+    .tablets {
+        background-color: black;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-grid {
+        width: 84.375%;
+        height: 100%;
+    }
+    
+    .header-tablet {
+        height: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-tablet{
+        width: 35%;
+    }
+    
+    .header-logo-tablet a img{
+        width: 100%;
+    }
+    
+    .header-pesquisa-tablet {
+        width: 50%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-pesquisa-tablet form{
+        width: 90%;
+        height: 100%;
+    }
+    
+    .header-pesquisa-tablet form input{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .header-menu-tablet {
+        height: 40%;
+    }
+    
+    .header-menu-tablet img {
+        width: 80%;
+        position: relative;
+        top: 5px;
+    }
+    
+    .header-nav-tablet{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    /* menu hamburguer com o JQuery: */
+
+    .header-nav-tablet-ativo {
+        display: flex;
+    }
+
+
+    
+    .header-nav-tablet a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .smartphone {
+        display: none;
+    }
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    /** ----------------------------Header Smartphone---------------------------- **/
+
+    .smartphone {
+        background-color: black;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .header-smartphone {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-smartphone {
+        width: 40%;
+    }
+    
+    .header-logo-smartphone a img, .header-pesquisa-smartphone a img, .header-menu-smartphone {
+        width: 100%;
+    }
+
+    .form-pesquisa-smartphone {
+        display: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100vw;
+        background-color: black;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .formulario-smartphone {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #input-pesquisa-smartphone {
+        font-family: 'Roboto';
+        text-align: center;
+        width: 80%;
+    }
+
+    #botao-pesquisa-smartphone {
+        display:none;
+    }
+
+    .header-menu-img-smartphone {
+        width: 80%;
+    }
+    
+    .header-pesquisa-smartphone {
+        width: 13%;
+    }
+    
+    .header-menu-smartphone {
+        width: 13%;
+    }
+    
+    .header-nav-smartphone{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    /* menu hamburguer com o JQuery: */
+
+    .header-nav-smartphone-ativo{
+        display: flex;
+    }
+    
+    .header-nav-smartphone a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .tablets {
+        display: none;
+    }
+
+
+
+
+
+}

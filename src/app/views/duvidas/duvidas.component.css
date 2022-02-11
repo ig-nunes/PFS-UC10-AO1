@@ -1,0 +1,504 @@
+/* ---------------------------- Perguntas Frequentes ---------------------------- */
+
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.duvidas-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.duvidas-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duvidas-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.duvidas-lista-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 40px;
+    background-color: #E5E5E5;
+    margin-bottom: 100px;
+}
+
+.duvidas-lista-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.duvidas-lista-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.duvidas-lista-bloco-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.duvidas-lista-pergunta-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.duvidas-lista-pergunta-desktop:hover {
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+.duvidas-lista-resposta-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#resposta1-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta2-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta3-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta4-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta5-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta6-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta7-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta8-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta9-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta10-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta11-desktop {
+    display: none;
+    text-align: center;
+}
+
+.duvidas-lista-atendimento-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.duvidas-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.duvidas-smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+
+    /** ----------------------------Perguntas Frequentes Tablet---------------------------- **/
+
+    .duvidas-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .duvidas-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .duvidas-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 45px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .duvidas-lista-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border-radius: 40px;
+        background-color: #E5E5E5;
+        margin-bottom: 100px;
+    }
+    
+    .duvidas-lista-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    
+    .duvidas-lista-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .duvidas-lista-bloco-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border: solid;
+        border-width: 3px;
+        border-color: black;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .duvidas-lista-pergunta-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .duvidas-lista-pergunta-tablet:hover {
+        cursor: pointer;
+        background-color: #E5E5E5;
+    }
+    
+    .duvidas-lista-resposta-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #resposta1-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta2-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta3-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta4-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta5-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta6-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta7-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta8-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta9-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta10-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta11-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    .duvidas-lista-atendimento-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    
+    /* ----------------------------Desktop---------------------------- */
+
+    .duvidas-desktop {
+        display: none;
+    }
+
+
+    /* ----------------------------Smartphone---------------------------- */
+
+    .duvidas-smartphone {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+
+    /** ----------------------------Perguntas Frequentes Smartphone---------------------------- **/
+
+    .duvidas-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .duvidas-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .duvidas-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .duvidas-lista-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-radius: 40px;
+        background-color: #E5E5E5;
+        margin-bottom: 100px;
+    }
+    
+    .duvidas-lista-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    
+    .duvidas-lista-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .duvidas-lista-bloco-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border: solid;
+        border-width: 3px;
+        border-color: black;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .duvidas-lista-pergunta-smartphone {
+        font-family: 'Roboto';
+        font-size: 17px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .duvidas-lista-pergunta-smartphone:hover {
+        cursor: pointer;
+        background-color: #E5E5E5;
+    }
+    
+    .duvidas-lista-resposta-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #resposta1-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta2-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta3-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta4-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta5-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta6-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta7-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta8-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta9-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta10-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta11-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    .duvidas-lista-atendimento-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+
+    /** ----------------------------Desktop---------------------------- **/
+        
+    .duvidas-desktop {
+        display: none;
+    }
+
+    /** ----------------------------tablet---------------------------- **/
+
+    .duvidas-tablet {
+        display: none;
+    }
+
+}

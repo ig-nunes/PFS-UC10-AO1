@@ -1,0 +1,174 @@
+
+/* ---------------------------- Quem Somos ---------------------------- */
+
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.quem-somos-desktop {
+    display: flex;
+    justify-content: center;
+    background-color: #AFD697;
+}
+
+.quem-somos-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quem-somos-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quem-somos-texto-desktop {
+    font-family: 'Roboto';
+    font-size: 22px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.quem-somos-img-desktop {
+    width: 40%;
+    margin-bottom: 200px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+
+.quem-somos-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+
+.quem-somos-smartphone {
+    display: none;
+}
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    
+    /** ----------------------------Quem Somos Tablet---------------------------- **/
+
+
+    .quem-somos-tablet {
+        display: flex;
+        justify-content: center;
+        background-color: #AFD697;
+    }
+    
+    .quem-somos-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .quem-somos-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: capitalize;
+        text-decoration: underline;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .quem-somos-texto-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .quem-somos-img-tablet {
+        width: 60%;
+        margin-bottom: 100px;
+    }
+    
+    
+    /* ----------------------------Desktop---------------------------- */
+    
+    
+    .quem-somos-desktop {
+        display: none;
+    }
+    
+    
+    /* ----------------------------Smartphone---------------------------- */
+    
+    
+    .quem-somos-smartphone {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+   
+
+    /** ----------------------------Quem Somos Smartphone---------------------------- **/
+
+
+    .quem-somos-smartphone {
+        display: flex;
+        justify-content: center;
+        background-color: #AFD697;
+    }
+    
+    .quem-somos-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .quem-somos-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: capitalize;
+        text-decoration: underline;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .quem-somos-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .quem-somos-img-smartphone {
+        width: 60%;
+        margin-bottom: 60px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .quem-somos-desktop {
+        display: none;
+    }
+
+    /** ----------------------------tablet---------------------------- **/
+
+    .quem-somos-tablet {
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,2443 @@
+
+
+/** ---------------------------- BANNER ---------------------------- **/
+
+/* ----------------------------Desktop---------------------------- */
+
+.banner-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+.banner-ancora-desktop {
+    border-radius: 40px;
+}
+
+
+.banner-imagem-desktop {
+    border-radius: 40px;
+}
+
+#botao-banner-desktop-carousel1, #botao-banner-desktop-carousel2, #botao-banner-desktop-carousel3 {
+    background-color: blue;
+    height: 15px;
+    width: 90px;
+    border-radius: 20px;
+    margin: 20px;  
+}
+
+#botao-banner-desktop-carousel1:hover {
+    background-color: red;
+}
+
+#botao-banner-desktop-carousel2:hover {
+    background-color: red;
+}
+
+#botao-banner-desktop-carousel3:hover {
+    background-color: red;
+}
+
+.botao-banner-carousel-desktop button .active {
+    background-color: red;
+}
+
+#botao-prev-banner-desktop, #botao-next-banner-desktop {
+    display: none;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.banner-tablet {
+    display: none;
+}
+
+/* ----------------------------Smartphone---------------------------- */
+
+.banner-smartphone {
+    display: none;
+}
+
+/** ---------------------------- BANNER CUPOM ---------------------------- **/
+
+.banner-cupom-desktop {
+    background-color: black;
+    height: 197.81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-cupom-desktop img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 1000px;
+    position: absolute;
+    top: 0px;
+}
+
+/* ----------------------------Tablet ---------------------------- */
+
+.banner-cupom-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.banner-cupom-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- MONTE PC ---------------------------- **/
+
+/* ----------------------------Desktop---------------------------- */
+
+.monte-pc-desktop {
+    background-color: black;
+}
+
+.monte-pc-titulo-caixa {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monte-pc-titulo {
+    color: white;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.monte-pc-opcoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monte-pc-gamer, .monte-pc-estudo-trabalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.monte-pc-gamer img, .monte-pc-estudo-trabalho img {
+    width: 100%;
+}
+
+.monte-pc-gamer-link, .monte-pc-estudo-trabalho-link {
+    width: 36.5%;
+    height: 40.9%;
+}
+
+.monte-pc-gamer-botao-caixa {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monte-pc-estudo-trabalho-botao-caixa {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monte-pc-gamer-botao, .monte-pc-estudo-trabalho-botao {
+    color: white;
+    background-color: #252BA4;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Roboto';
+    border-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.monte-pc-gamer-botao:hover {
+    background-color: red;
+}
+
+.monte-pc-estudo-trabalho-botao:hover {
+    background-color: red;
+}
+
+.monte-pc-final {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monte-pc-final h2 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 30px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.monte-pc-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.monte-pc-smartphone {
+    display: none;
+}
+
+/** ---------------------------- CATEGORIAS DESTAQUE ---------------------------- **/
+
+
+/* ----------------------------Desktop ----------------------------*/
+
+.categorias-destaque-banner-desktop {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B15353;
+}
+
+.categorias-destaque-desktop {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias-destaque-texto-desktop {
+    width: 40%;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+
+.carousel-categorias-destaque {
+    
+    height: 100%;
+}
+
+.desktop-categorias-caixa {
+    height: 100%;
+}
+
+.categorias-destaque-caixa-desktop {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.categorias-destaque-img-desktop{
+    width: 100%;
+}
+
+.categorias-destaque-ancora-desktop {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.categorias-destaque-secao-desktop {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+.categorias-destaque-col-desktop {
+    height: 100%;
+}
+
+.categorias-destaque-produto-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#botao-prev-destaque-desktop {
+    display: none;
+}
+
+#destaque-icon-next-desktop {
+    background-image: url(/assets/img/Proxima\ Pagina\ Smartphone.png);
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.categorias-destaque-banner-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.categorias-destaque-banner-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- GALERIA ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.galeria-desktop {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+}
+
+.galeria-titulo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-titulo h1 {
+    font-size: 45px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+.galeria-produtos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.galeria-categoria{
+    height: 1350px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria-categoria-titulo, .galeria-categoria-titulo p {
+    background-color: black;
+    height: 7.4%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight:700;
+    text-transform: capitalize;
+}
+
+.galeria-categoria-produto1, .galeria-categoria-produto2, .galeria-categoria-produto3 {
+    background-color: white;
+    height: 25.9%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.galeria-categoria-produto1 p, .galeria-categoria-produto2 p, .galeria-categoria-produto3 p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;   
+}
+
+.galeria-categoria-produto1 a img, .galeria-categoria-produto2 a img, .galeria-categoria-produto3 a img {
+    width: 100%;
+}
+
+.galeria-categorias-mais-produtos {
+    width: 100%;
+}
+
+.btn-galeria-categoria-mais-produtos {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: 100%;
+    height: 70px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    border-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.galeria-todas-categorias {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-todas-categorias-botao {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-todas-categorias-botao a{
+    width: 100%;
+}
+
+.btn-galeria-todas-categorias {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: 100%;
+    height: 90px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    border-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.galeria-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.galeria-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- CADASTRAR EMAIL ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.cadastrar-email-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: #B15353;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadastro-email-caixa {
+    height: 200px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cadastro-email-caixa p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.cadastro-email-form {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-email-form form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cadastro-email-form form input{
+    width: 60%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-cadastro-email-form {
+    width: 27%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cadastro-imagens {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.cadastro-imagens1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-imagens1 p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+}
+
+.cadastro-imagens1 img{
+    position: relative;
+    top: 5px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.cadastrar-email-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.cadastrar-email-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- QUEM SOMOS ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.quem-somos-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AFD697;
+}
+
+.quem-somos-titulo {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos-titulo h1 {
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.quem-somos-apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 200px;
+}
+
+.quem-somos-apresentacao-imagem img {
+    width: 100%;
+}
+
+.quem-somos-apresentacao-texto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quem-somos-apresentacao-texto-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.quem-somos-apresentacao-texto img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.quem-somos-apresentacao-texto a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-quem-somos-apresentacao-texto-saiba {
+    width: 55%;
+    height: 65px;
+    background-color: #83B862;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 23px;
+    text-decoration: underline;
+    position: relative;
+    top: 50px;
+}
+
+.quem-somos-localizacao {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 250px;
+}
+
+.quem-somos-localizacao-texto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos-localizacao-texto-descricao {
+    font-family: 'Roboto';
+    font-size: 35px;
+    text-align: center;
+}
+
+.quem-somos-localizacao-imagem{
+    width: 50%;
+}
+
+.quem-somos-localizacao-imagem a img{
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.quem-somos-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.quem-somos-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- FOOTER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.rodape-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.rodape-caixa {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.rodape-esquerda {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-esquerda-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda-logo {
+    width: 100%;
+}
+
+.rodape-esquerda-logo img {
+    width: 49.2%;
+}
+
+.rodape-esquerda-links-lista {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.rodape-esquerda-links-lista li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.rodape-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-direita-redes-sociais {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+.rodape-direita-redes-sociais-texto {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rodape-direita-redes-sociais img {
+    width: auto;
+    height: auto;
+    max-width: 190px;
+    max-height: 50px;
+}
+
+.rodape-direita-cartoes img {
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.rodape-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.rodape-smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+@media screen and (min-width: 936px) and (max-width: 1100px){
+
+
+    /** ----------------------------Cupom---------------------------- **/
+
+
+    .banner-cupom {
+      height: 150px;
+    }
+
+
+    /** ----------------------------Monte Seu PC---------------------------- **/
+
+
+    .monte-pc-titulo-caixa{
+      height: 200px;
+    }
+
+    .monte-pc-titulo {
+      font-size: 25px;
+    }
+
+    .monte-pc-gamer-botao-caixa, .monte-pc-estudo-trabalho-botao-caixa {
+      height: 150px;
+    }
+    
+    .monte-pc-gamer-botao, .monte-pc-estudo-trabalho-botao {
+      font-size: 18px;
+    }
+
+    .monte-pc-final {
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .monte-pc-final h2 {
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+
+    /** ----------------------------Categorias Destaque Banner---------------------------- **/
+
+
+    .categorias-destaque-banner {
+      height: 150px;
+    }
+
+    .categorias-destaque-texto {
+      font-size: 20px;
+    }
+
+    .categorias-destaque-produto img, .categorias-destaque a img{
+      width: 75%;
+    }
+
+    .categorias-destaque-produto p {
+      font-size: 14px;
+    }
+
+
+    /** ----------------------------Galeria---------------------------- **/
+
+
+    .galeria-titulo {
+      height: 150px;
+    }
+
+    .galeria-titulo h1 {
+      font-size: 30px;
+    }
+
+    .galeria-categoria-titulo, .galeria-categoria-titulo p {
+      font-size: 20px;
+    }
+
+    .galeria-categoria-produto1 p, .galeria-categoria-produto2 p, .galeria-categoria-produto3 p {
+      font-size: 13px;
+    }
+
+    .btn-galeria-categoria-mais-produtos {
+      font-size: 17px;
+    }
+
+    .galeria-todas-categorias {
+      height: 200px;
+    }
+
+    .btn-galeria-todas-categorias {
+      font-size: 17px;
+    }
+
+    .galeria-categoria{
+      height: 1200px;
+    }
+
+
+    /** ----------------------------Cadastra Email---------------------------- **/
+
+
+    .cadastrar-email{
+      height: 150px;
+    }
+
+    .cadastro-email-caixa {
+      height: 150px;
+    }
+
+    .cadastro-email-caixa p {
+      font-size: 17px;
+    }
+
+    .cadastro-email-form form input {
+      font-size: 19px;
+    }
+
+    .btn-cadastro-email-form {
+      font-size: 17px;
+    }
+
+    .cadastro-imagens1 p {
+      font-size: 17px;
+    }
+
+
+    /** ----------------------------Quem Somos---------------------------- **/
+
+
+    .quem-somos-titulo {
+      height: 150px;
+    }
+
+    .quem-somos-titulo h1 {
+      font-size: 30px;
+    }
+
+    .quem-somos-apresentacao {
+      padding-bottom: 120px;
+    }
+
+    .quem-somos-apresentacao-texto {
+      height: 80%;
+    }
+
+    .quem-somos-apresentacao-texto img {
+      width: 60%;
+    }
+
+    .btn-quem-somos-apresentacao-texto-saiba {
+      width: 50%;
+      height: 55px;
+      font-size: 18px;
+      position: relative;
+      top: 30px;
+    }
+
+    .quem-somos-localizacao {
+      padding-bottom: 120px;
+    }
+
+    .quem-somos-localizacao-texto-descricao {
+      font-size: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    
+    /** ----------------------------Banner Tablet---------------------------- **/
+    
+    
+    .banner-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner-promocao-tablet {
+        padding-top: 30px;
+        padding-bottom: 90px;
+        width: 100%;
+    }
+    
+    #botao-banner-tablet-carousel1, #botao-banner-tablet-carousel2, #botao-banner-tablet-carousel3 {
+        background-color: black;
+        height: 15px;
+        width: 100px;
+        border-radius: 20px;
+        margin: 15px;
+    }
+    
+    #botao-next-banner-tablet, #botao-prev-banner-tablet {
+        display: none;
+    }
+    
+    .banner-carousel-tablet {
+        position: relative;
+    }
+    
+    .botao-banner-carousel-tablet {
+        position: absolute;
+        bottom: -95px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .banner-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+    
+    .banner-smartphone {
+        display: none;
+    }
+    
+    
+    /** ----------------------------Banner Cupom Tablet---------------------------- **/
+    
+    .banner-cupom-tablet {
+        background-color: #B15353;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner-cupom-tablet img {
+        width: 100%;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .banner-cupom-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .banner-cupom-smartphone {
+        display: none;
+    }
+
+    
+    /** ----------------------------Monte PC Tablet---------------------------- **/
+    
+    .monte-pc-tablet {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .monte-pc-caixa-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .monte-pc-titulo-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .monte-pc-titulo-tablet h1 {
+        color: white;
+        text-decoration: underline;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    
+    .monte-pc-gamer-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .monte-pc-estudo-trabalho-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .monte-pc-gamer-tablet img, .monte-pc-estudo-trabalho-tablet img {
+        width: 100%;
+    }
+    
+    .monte-pc-gamer-botao-caixa-tablet, .monte-pc-estudo-trabalho-botao-caixa-tablet {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .monte-pc-gamer-link-tablet, .monte-pc-estudo-trabalho-link-tablet {
+        width: 50%;
+        height: 80%;
+    }
+    
+    .monte-pc-gamer-botao-tablet, .monte-pc-estudo-trabalho-botao-tablet {
+        color: white;
+        background-color: #252BA4;
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+        text-transform: capitalize;
+        font-size: 19px;
+        border-color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .monte-pc-final-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .monte-pc-final-tablet p {
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .monte-pc-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .monte-pc-smartphone {
+        display: none;
+    }
+    
+
+    /** ----------------------------Categorias de Destaque Tablet---------------------------- **/
+    
+    .categorias-destaque-banner-tablet {
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        background-color: #B15353;
+    }
+    
+    .categorias-destaque-tablet {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .categorias-destaque-texto-tablet {
+        width: 40%;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'Roboto';
+    }
+    
+    .carousel-categorias-destaque {
+        
+        height: 100%;
+    }
+    
+    .tablet-categorias-caixa {
+        height: 100%;
+    }
+    
+    .categorias-destaque-caixa-tablet {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .categorias-destaque-img-tablet{
+        width: 100%;
+    }
+    
+    .categorias-destaque-ancora-tablet {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 15px;
+    }
+    
+    .categorias-destaque-secao-tablet {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+    }
+    
+    .categorias-destaque-col-tablet {
+        height: 100%;
+    }
+    
+    .categorias-destaque-produto-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #botao-prev-destaque-tablet {
+        display: none;
+    }
+    
+    #destaque-icon-next-tablet {
+        background-image: url(/assets/img/Proxima\ Pagina\ Smartphone.svg);
+        width: 50px;
+        height: 50px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .categorias-destaque-banner-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .categorias-destaque-banner-smartphone {
+        display: none;
+    }
+
+    
+    /** ----------------------------Galeria Tablet---------------------------- **/
+    
+    .galeria-tablet {
+        display: flex;
+        justify-content: center;
+        background-color: #ffff;
+        height: 1250px;
+    }
+    
+    .carousel-categorias-tablet {
+        height: 1000px;
+        position: relative;
+    }
+    
+    .galeria-carousel-tablet{
+        height: 100%;
+    }
+    
+    .galeria-carousel-caixa-tablet {
+        height: 100%;
+    }
+    
+    .galeria-caixa-tablet {
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+        position: relative;
+    }
+    
+    .galeria-titulo-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .galeria-titulo-tablet h1 {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    
+    
+    .categorias-prod-esq-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        left: 90px;
+    }
+    
+    .categorias-prod-dir-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        right: 90px;
+    }
+    
+    .galeria-categoria-titulo-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        border-radius: 15px;
+        font-family: 'Roboto';
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+        text-transform: capitalize;
+        width: 100%;
+        height: 7%;
+    }
+    
+    .galeria-categoria-produto-tablet {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+    }
+    
+    .galeria-categoria-produto-tablet a, .galeria-categoria-produto-tablet p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+    }
+    
+    
+    
+    #botao-galeria-tablet-carousel1 , #botao-galeria-tablet-carousel2, #botao-galeria-tablet-carousel3{
+        background-color: black;
+        height: 15px;
+        width: 70px;
+        border-radius: 20px;
+        margin: 10px;  
+    }
+    
+    #galeria-icon-next-tablet {
+        background-image: url(/assets/img/Proxima\ Pagina\ Smartphone.svg);
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+    #galeria-icon-prev-tablet {
+        background-image: url(/assets/img/Pagina\ Anterior\ Smartphone.svg);
+        width: 70px;
+        height: 70px;
+    }
+    
+    .botao-galeria-tablet {
+        position: absolute;
+        top: 990px
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .galeria-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .galeria-smartphone {
+        display: none;
+    }
+    
+    
+    /** ----------------------------Cadastro Email Tablet---------------------------- **/
+    
+    
+    .cadastrar-email-tablet{
+        background-color: #B15353;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cadastro-tablet {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .cadastro-email-caixa-tablet {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .cadastro-email-caixa-tablet {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .cadastro-email-form-tablet form {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cadastro-email-form-tablet form input{
+        width: 60%;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .btn-cadastro-email-form-tablet {
+        width: 27%;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .cadastrar-email-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .cadastrar-email-smartphone {
+        display: none;
+    }
+    
+    
+    /** ----------------------------Quem Somos Tablet---------------------------- **/
+    
+    
+    .quem-somos-tablet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #AFD697;
+    }
+    
+    .quem-somos-secao-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .quem-somos-titulo-tablet {
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .quem-somos-titulo-tablet h1 {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    
+    .quem-somos-apresentacao-tablet{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .quem-somos-apresentacao-texto-tablet {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .quem-somos-apresentacao-tablet img {
+        width: 100%;
+    }
+    
+    .quem-somos-apresentacao-botao {
+        padding-bottom: 80px;
+    }
+    
+    .btn-quem-somos-apresentacao-botao-tablet {
+        width: 200px;
+        height: 65px;
+        background-color: #83B862;
+        cursor: pointer;
+        border-radius: 25px;
+        border: none;
+        font-family: 'Roboto';
+        font-size: 23px;
+        text-decoration: underline;
+        
+    }
+    
+    .quem-somos-localizacao-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .quem-somos-localizacao-tablet h1 {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 800;
+        text-decoration: underline;
+        padding-bottom: 50px;
+    }
+    
+    .quem-somos-localizacao-tablet img {
+        width: 100%;
+    }
+    
+    .quem-somos-localizacao-tablet p {
+        font-family: 'Roboto';
+        font-size: 25px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .quem-somos-desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .quem-somos-smartphone {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    
+
+    /** ----------------------------Banner Smartphone---------------------------- **/
+
+
+    .banner-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner-promocao-smartphone {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    
+    .carousel-inner {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #botao-banner-smartphone-carousel1, #botao-banner-smartphone-carousel2, #botao-banner-smartphone-carousel3 {
+        background-color: black;
+        height: 15px;
+        width: 70px;
+        border-radius: 20px;
+        margin: 10px;  
+    }
+    
+    #botao-prev-banner-smartphone, #botao-next-banner-smartphone {
+        display: none;
+    }
+    
+    .banner-carousel-samrtphone {
+        position: relative;
+    }
+    
+    .botao-banner-carousel-samrtphone {
+        position: absolute;
+        bottom: -85px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .banner-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .banner-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Banner Cupom Smartphone---------------------------- **/
+
+
+    .banner-cupom-smartphone {
+        display: flex;
+    }
+
+    .banner-cupom-smartphone img {
+        width: 100%;
+        display: flex;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .banner-cupom-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .banner-cupom-tablet {
+        display: none;
+    }
+
+    /** ----------------------------Monte PC Smartphone---------------------------- **/
+
+
+    .monte-pc-smartphone {
+        display: flex;
+        background-color: black;
+    }
+    
+    .monte-pc-caixa-smartphone {
+        width: 100%;
+    }
+
+    .monte-pc-titulo-smartphone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-transform: capitalize;
+    }
+
+    .monte-pc-titulo-smartphone h1 {
+        font-size: 30px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
+    }
+
+    .monte-pc-opcoes-smartphone {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .monte-pc-gamer-smartphone{
+        background-image: url(/assets/img/Monte\ PC\ Gamer\ Smartphone.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .monte-pc-estudo-trabalho-smartphone{
+        background-image: url(/assets/img/Monte\ PC\ Est-Trab\ Smartphone.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .monte-pc-gamer-botao-caixa-smartphone, .monte-pc-estudo-trabalho-botao-caixa-smartphone {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .monte-pc-gamer-link-smartphone, .monte-pc-estudo-trabalho-link-smartphone {
+        width: 75%;
+        height: 80%;
+    }
+
+    .monte-pc-gamer-botao-smartphone, .monte-pc-estudo-trabalho-botao-smartphone {
+        color: white;
+        background-color: #252BA4;
+        border: black;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+        border-color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .monte-pc-gamer-link-smartphone button {
+        font-family: 'Roboto';
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+    .monte-pc-final {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .monte-pc-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .monte-pc-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Categorias de Destaque Smartphone---------------------------- **/
+
+    .categorias-destaque-banner-smartphone {
+        height: 120px;
+        background-color: #B15353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .categorias-destaque-smartphone {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .categorias-destaque-texto-smartphone {
+        width: 40%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: 800;
+        font-family: 'Roboto';
+    }
+    
+    .carousel-categorias-destaque {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .smartphone-categorias-caixa {
+        height: 100%;
+    }
+    
+    .categorias-destaque-caixa-smartphone {
+        width: 60%;
+        height: 100%;
+    }
+    
+    .categorias-destaque-ancora-smartphone {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 13px;
+    }
+    
+    .categorias-destaque-secao-smartphone {
+        height: 100%;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .categorias-destaque-produto-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #botao-prev-destaque-smartphone {
+        display: none;
+    }
+    
+    #destaque-icon-next-smartphone {
+        background-image: url(/assets/img/Proxima\ Pagina\ Smartphone.svg);
+        width: 50px;
+        height: 50px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .categorias-destaque-banner-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .categorias-destaque-banner-tablet {
+        display: none;
+    }
+
+
+
+    /** ----------------------------Galeria Smartphone---------------------------- **/
+
+
+    .galeria-smartphone {
+        background-color: #ffff;
+        display: flex;
+        justify-content: center;
+        height: 900px;
+    }
+    
+    .galeria-titulo-smartphone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .galeria-titulo-smartphone h1 {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    
+    .carousel-categorias-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .galeria-carousel-smartphone {
+        width: 60%;
+    }
+    
+    .galeria-carousel-caixa-smartphone {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .categorias-prod-smartphone {
+        height: 740px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .galeria-categoria-titulo-smartphone {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        border-radius: 15px;
+        font-family: 'Roboto';
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+        text-transform: capitalize;
+        width: 100%;
+        height: 10%;
+        margin-bottom: 30px;
+    
+    }
+    
+    .smartphone-galeria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .galeria-categoria-produto-smartphone {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        margin-bottom: 30px;
+    }
+
+    .galeria-produto-imagem-smartphone{
+        width: 65%;
+    }
+    
+    .galeria-categoria-produto-smartphone a, .galeria-categoria-produto-smartphone p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+    }
+    
+    #botao-galeria-smartphone-carousel1 , #botao-galeria-smartphone-carousel2, #botao-galeria-smartphone-carousel3{
+        background-color: black;
+        height: 15px;
+        width: 70px;
+        border-radius: 20px;
+        margin: 10px;  
+    }
+    
+    
+    #galeria-icon-next-smartphone {
+        background-image: url(/assets/img/Proxima\ Pagina\ Smartphone.svg);
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+    #galeria-icon-prev-smartphone {
+        background-image: url(/assets/img/Pagina\ Anterior\ Smartphone.svg);
+        width: 70px;
+        height: 70px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .galeria-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .galeria-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Cadastrar-email---------------------------- **/
+
+
+    .cadastrar-email-smartphone {
+        background-color: #B15353;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro-smartphone {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro-email-caixa-smartphone {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cadastro-email-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .cadastro-email-form-smartphone {
+        width: 100%;
+        height: 30%;
+    }
+
+    .cadastro-email-form-smartphone form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cadastro-email-form-smartphone form input{
+        width: 60%;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .btn-cadastro-email-form-smartphone {
+        width: 27%;
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .cadastrar-email-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .cadastrar-email-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Quem Somos Smartphone---------------------------- **/
+
+
+    .quem-somos-smartphone {
+        display: flex;
+        background-color: #AFD697;
+    }
+
+    .quem-somos-secao-smartphone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quem-somos-titulo-smartphone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .quem-somos-titulo-smartphone h1 {
+        font-family: 'Roboto';
+        font-size: 35px;
+        font-weight:800;
+        text-decoration: underline;
+    }
+
+    .quem-somos-apresentacao-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quem-somos-apresentacao-smartphone img {
+        width: 100%;
+    }
+
+    .quem-somos-apresentacao-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+        margin: 40px;
+        
+    }
+
+    .quem-somos-apresentacao-botao-smartphone {
+        padding-bottom: 50px;
+    }
+
+    .btn-quem-somos-apresentacao-botao-smartphone {
+        width: 150px;
+        height: 40px;
+        background-color: #83B862;
+        cursor: pointer;
+        border-radius: 25px;
+        border: none;
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .quem-somos-localizacao-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quem-somos-localizacao-smartphone h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight:800;
+        text-decoration: underline;
+    }
+
+    .quem-somos-localizacao-smartphone a, .quem-somos-localizacao-smartphone a img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .quem-somos-localizacao-texto-descricao-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .quem-somos-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .quem-somos-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone a {
+        font-family: 'Roboto';
+        font-size: 17px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 17px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .rodape-tablet {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+
+    /** ----------------------------Monte PC Smartphone---------------------------- **/
+
+
+    .monte-pc-titulo-smartphone {
+        font-size: 16px;
+    }
+
+    .monte-pc-gamer-botao-smartphone, .monte-pc-estudo-trabalho-botao-smartphone {
+        font-size: 10px;
+    }
+
+    .monte-pc-final {
+        font-size: 14px;
+    }
+
+
+    /** ----------------------------Categorias de Destaque Smartphone---------------------------- **/
+
+
+    .categorias-destaque-banner-smartphone {
+        height: 100px;
+    }
+
+    .categorias-destaque-texto-smartphone {
+        font-size: 12px;
+    }
+
+    .categorias-destaque-smartphone a{
+        font-size: 10px;
+    }
+
+    /** ----------------------------Galeria Smartphone---------------------------- **/
+
+
+
+    .galeria-smartphone {
+        margin-bottom: 30px;
+    }
+
+    .galeria-titulo-smartphone h1{
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .galeria-categoria-smartphone {
+
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .galeria-categoria-titulo-smartphone {
+        font-size: 16px;
+        width: 90%;
+        height: 10%;
+    }
+
+    .galeria-categoria-produto-smartphone {
+        width: 90%;
+        height: 40%;
+    }
+
+    .galeria-produto-imagem-smartphone {
+        width: 60%;
+    }
+
+    .galeria-secao-proxima-smartphone a img {
+        width: 100%;
+        padding: 5px
+    }
+
+    .galeria-categoria-produto-descricao-smartphone, .galeria-categoria-produto-preço-smartphone {
+        font-size: 2px;
+    }
+
+    .galeria-carousel-smartphone {
+        width: 85%;
+    }
+
+    .galeria-categoria-produto-smartphone a, .galeria-categoria-produto-smartphone p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .carousel-categorias-smartphone {
+        position: relative;
+    }
+
+    .botao-galeria-smartphone {
+        position: absolute;
+        bottom: -50px;
+    }
+
+
+    /** ----------------------------Cadastrar-email---------------------------- **/
+
+
+    .cadastrar-email-smartphone {
+        height: 100px;
+    }
+
+    .cadastro-email-texto-smartphone {
+        font-size: 13px;
+    }
+
+    .cadastro-email-form-smartphone form input{
+        font-size: 12px;
+    }
+
+    .btn-cadastro-email-form-smartphone {
+        font-size: 12px;
+    }
+
+
+    /** ----------------------------Quem Somos Smartphone---------------------------- **/
+
+
+    .quem-somos-titulo-smartphone h1 {
+        font-size: 25px;
+    }
+
+    .quem-somos-apresentacao-smartphone p {
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .quem-somos-apresentacao-botao-smartphone {
+        padding-bottom: 30px;
+    }
+
+    .btn-quem-somos-apresentacao-botao-smartphone {
+        width: 130px;
+        height: 35px;
+        font-size: 16px;
+
+    }
+
+    .quem-somos-localizacao-smartphone h1 {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .quem-somos-localizacao-texto-descricao-smartphone {
+        font-size: 17px;
+    }
+
+}

@@ -1,0 +1,110 @@
+
+
+
+<!-- -------------------------HEADER------------------------- -->
+
+        <!-- Desktop -->
+
+        <header class="desktop">
+            <div class="container-grid">
+                <div class="header">
+                    <div class="header-top">
+                        <a routerLink=""> <img class="logo" alt="Imagem do logo da game mania" src="/assets/img/Logo.png"> </a>
+                    </div>
+                    <div class="header-top-pesquisa">
+                        <form>
+                            <input id="input-pesquisa-desktop" type="text" placeholder="O que você procura hoje?" required>
+                            <button id="botao-pesquisa-desktop" onclick="pegarPesquisaDesktop()">pesquisar</button>
+                        </form>
+                    </div>
+                    <div class="header-localizacao">
+                        <a href="https:google.com"> <img src="/assets/img/Localização.png" alt="Localização da loja"> </a>
+                    </div>
+                    <div class="redes-sociais-header-img">
+                        <img id="redes-sociais-header-img" src="/assets/img/Redes Sociais Header.svg" alt="Redes sociais">
+                    </div>
+                                
+                    
+                </div>
+                <div class="header-nav">    
+                    <nav class="header-menu">
+                        <a class="header-menu-links" href="">categorias</a>
+                        <a class="header-menu-links" routerLink="/atendimento">atendimento</a>
+                        <a class="header-menu-links" href="">favoritos</a>
+                        <a class="header-menu-links" href=""> <img src="/assets/img/Carrinho de compras.png" alt="Carrinho de compras"> </a>
+                        <a class="header-menu-links header-menu-login" routerLink="/login">login</a>          
+                    </nav>
+                </div>
+            </div>         
+        </header>
+
+        <!-- Tablet -->
+
+        <header class="tablets">
+            <div class="container-grid">
+                <div class="header-tablet">
+                    <div class="header-logo-tablet">
+                        <a routerLink=""> <img src="/assets/img/Logo Tablet.png" alt="Logo game mania"> </a>
+                    </div>
+                    <div class="header-pesquisa-tablet">
+                        <form>
+                            <input type="text" placeholder="O que você procura hoje?">
+                        </form>
+                    </div>
+                    <nav id="menu-nav-tablet" class="header-nav-tablet">
+                        <a class="header-nav-links-tablet" href="">categorias</a>
+                        <a class="header-nav-links-tablet" routerLink="/atendimento">atendimento</a>
+                        <a class="header-nav-links-tablet" href="">favoritos</a>
+                        <a class="header-nav-links-tablet" href="">carrinho</a>
+                        <a class="header-nav-links-tablet" routerLink="/login">login</a>          
+                    </nav>
+                    <div class="header-menu-tablet">
+                        <!-- Código sem o JQuery: -->
+                        <a onclick="mostrarNavTablet()"><img src="assets/img/Menu Hamburguer Tablet.png" alt="icone do menu"></a>
+                        <!-- <a routerLink="#" id="menu-hamburguer-tablet"><img src="/assets/img/Menu Hamburguer Tablet.png" alt="icone do menu"></a> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Smartphone -->
+
+        <header class="smartphone">
+            <div class="container-grid">
+                <div class="header-smartphone">
+                    <div class="header-logo-smartphone">
+                        <a routerLink=""> <img src="/assets/img/Logo Header Smartphone.png" alt="Logo game mania"> </a>
+                    </div>
+
+                    <div class="header-pesquisa-smartphone">
+                        <a onclick="mostrarBarraPesquisaSmartphone()" class="header-pesquisa-lupa-smartphone" href="#"><img src="/assets/img/Lupa Pesquisa Smartphone.png" alt="lupa de pesquisa"></a>
+                    </div>
+
+                    <div class="form-pesquisa-smartphone">
+                        <form class="formulario-smartphone" action="">
+                            <input id="input-pesquisa-smartphone" type="text" placeholder="O que você procura hoje?" required>
+                            <button id="botao-pesquisa-smartphone" onclick="pegarPesquisaSmartphone()">pesquisar</button>
+                        </form>
+                    </div>
+
+
+                    <nav id="menu-nav-smartphone" class="header-nav-smartphone">
+                        <a class="header-nav-links-smartphone" href="">categorias</a>
+                        <a class="header-nav-links-smartphone" routerLink="/atendimento">atendimento</a>
+                        <a class="header-nav-links-smartphone" href="">favoritos</a>
+                        <a class="header-nav-links-smartphone" href="">carrinho</a>
+                        <a class="header-nav-links-smartphone" routerLink="/login">login</a>          
+                    </nav>
+                    <div class="header-menu-smartphone">
+                      <!-- Código sem o JQuery: -->
+                        <a onclick="mostrarNavSmartphone()"><img class="header-menu-img-smartphone" src="assets/img/Menu Header Smartphone.png" 
+                        alt="icone do menu"></a>
+                        <!-- <a href="#" id="menu-hamburguer-smartphone"><img class="header-menu-img-smartphone" src="/assets/img/Menu Header Smartphone.png" 
+                        alt="icone do menu"></a> -->
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </header>

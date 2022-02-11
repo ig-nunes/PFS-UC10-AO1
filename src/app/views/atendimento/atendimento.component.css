@@ -1,0 +1,617 @@
+/* ---------------------------- Atendimento ---------------------------- */
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.atendimento-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.atendimento-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atendimento-titulo-desktop {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.atendimento-contatos-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 80%;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.atendimento-contatos-titulo-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.atendimento-contatos-item-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.atendimento-contatos-ultimo-item-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.atendimento-formulario-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 60%;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.atendimento-formulario-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.atendimento-formulario-texto-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.atendimento-form-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.atendimento-form-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.atendimento-nome-completo-desktop {
+    display: block;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.atendimente-form-label-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.atendimento-duvida-desktop {
+    height: 200px;
+}
+
+#atendimento-formulario-enviar-desktop {
+    width: 60%;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+
+
+.atendimento-redes-sociais-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 60%;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+
+.atendimento-redes-sociais-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.atendimento-redes-sociais-texto-desktop{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.atendimento-redes-sociais-caixa-desktop{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.atendimento-redes-sociais-links-desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.atendimento-redes-sociais-img-desktop{
+    max-width: 40px;
+    height: auto;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.atendimento-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.atendimento-smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    
+    /** ----------------------------Atendimento Tablet---------------------------- **/
+
+
+    .atendimento-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .atendimento-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atendimento-titulo-tablet {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
+        text-transform: capitalize;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        border-radius: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-titulo-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .atendimento-contatos-item-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-contatos-ultimo-item-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .atendimento-formulario-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 80%;
+        border-radius: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-formulario-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-formulario-texto-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .atendimento-form-tablet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .atendimento-form-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .atendimento-nome-completo-tablet {
+        display: block;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 18px;
+    }
+
+    .atendimente-form-label-tablet {
+        font-family: 'Roboto';
+        font-size: 18px;
+    }
+    
+    .atendimento-duvida-tablet {
+        height: 150px;
+    }
+    
+    #atendimento-formulario-enviar-tablet {
+        width: 80%;
+        margin-bottom: 50px;
+        font-family: 'Roboto';
+        font-size: 18px;
+    }
+    
+    
+    
+    .atendimento-redes-sociais-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 80%;
+        border-radius: 40px;
+        margin-bottom: 150px;
+    }
+    
+    .atendimento-redes-sociais-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-redes-sociais-texto-tablet{
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .atendimento-redes-sociais-caixa-tablet{
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    
+    .atendimento-redes-sociais-links-tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: black;
+    }
+    
+    .atendimento-redes-sociais-img-tablet{
+        max-width: 30px;
+        height: auto;
+    }
+
+    
+    /* ----------------------------Desktop---------------------------- */
+
+    .atendimento-desktop {
+        display: none;
+    }
+
+
+    /* ----------------------------Smartphone---------------------------- */
+
+    .atendimento-smartphone {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    
+
+    /** ----------------------------Atendimento Smartphone---------------------------- **/
+
+    .atendimento-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .atendimento-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atendimento-titulo-smartphone {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
+        text-transform: capitalize;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .atendimento-contatos-texto-smartphone {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .atendimento-contatos-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-titulo-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .atendimento-contatos-item-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-contatos-ultimo-item-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .atendimento-formulario-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-formulario-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-formulario-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .atendimento-form-smartphone {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .atendimento-form-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .atendimento-nome-completo-smartphone {
+        display: block;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+    }
+
+    .atendimente-form-label-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+    }
+    
+    .atendimento-duvida-smartphone {
+        height: 150px;
+    }
+    
+    #atendimento-formulario-enviar-smartphone {
+        width: 80%;
+        margin-bottom: 50px;
+        font-family: 'Roboto';
+        font-size: 16px;
+    }
+    
+    
+    
+    .atendimento-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    
+    .atendimento-redes-sociais-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-redes-sociais-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    .atendimento-redes-sociais-caixa-smartphone {
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    
+    .atendimento-redes-sociais-links-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: black;
+    }
+    
+    .atendimento-redes-sociais-img-smartphone {
+        max-width: 30px;
+        height: auto;
+    }
+    
+
+    /** ----------------------------Desktop---------------------------- **/
+        
+    .atendimento-desktop {
+        display: none;
+    }
+
+    /** ----------------------------tablet---------------------------- **/
+
+    .atendimento-tablet {
+        display: none;
+    }
+
+}
+

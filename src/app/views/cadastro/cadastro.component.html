@@ -1,0 +1,150 @@
+
+    <!-- -------------------------Cadastro------------------------- -->
+
+    <!-- Desktop -->
+
+    <section class="cadastro-desktop">
+        <div class="container-grid cadastro-formulario-desktop">
+            <div class="cadastro-caixa-desktop">
+                <h1 class="cadastro-titulo-desktop">Cadastro</h1>
+                <form class="cadastro-form-desktop">
+
+                    <div class="cadastro-form-caixa-desktop">
+                        <label class="cadastro-form-label-desktop" for="name">Nome</label>
+                        <input class="cadastro-form-input-desktop" type="name" name="name" id="nome-desktop"
+                            placeholder="Insira seu nome aqui" required [(ngModel)]="novoUsuario.usuario">
+                    </div>
+                    <div class="cadastro-form-caixa-desktop">
+                        <label class="cadastro-form-label-desktop" for="email">Login</label>
+                        <input class="cadastro-form-input-desktop" type="email" name="email" id="name-desktop" 
+                            placeholder="Ex.: exemplo@email.com" required [(ngModel)]="novoUsuario.email">
+                    </div>
+
+                    <div class="cadastro-form-caixa-desktop">
+                        <label class="cadastro-form-label-desktop" for="senha">Senha</label>
+                        <input class="cadastro-form-input-desktop" type="password" name="senha" id="senha-desktop" 
+                            placeholder="Digite sua senha aqui" required [(ngModel)]="novoUsuario.password">
+                    </div>
+
+                    <div class="cadastro-opcoes-desktop">
+
+                        <div class="cadastrar-desktop">
+                            <button type="submit" id="cadastrar-desktop" (click)="cadastrarUsuario()">
+                                Cadastrar</button>
+                        </div>
+                        <div class="cancelar-listar-desktop">
+                            <button id="cancelar-cadastro-desktop" (click)="cancelarCadastro()">
+                                Cancelar</button>
+                            <button id="todos-cadastros-desktop"
+                                (click)="listarCadastros()">Todos os cadastros</button>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="caixa-tabela-desktop" *ngIf="variavel != false">
+                <table class="tabela-usuarios-desktop">
+                    <thead>
+                        <th> ID </th>
+                        <th> Usuário </th>
+                        <th> Email </th>
+                        <th> Senha </th>
+                    </thead>
+                    <tbody class="tabela-linha-desktop" *ngFor="let user of usuarios">
+                        <td>{{ user.id }}</td>
+                        <td><input type="text" [(ngModel)]="user.usuario" required></td>
+                        <!-- (keyup.enter)="editarNomeUsuario(user.usuario, user.id)" -->
+                        <td><input type="text" [(ngModel)]="user.email" required></td>
+                        <td><input type="text" [(ngModel)]="user.password" required></td>
+                        <td> <button (click)="editarNomeUsuario(user.usuario, user.email, user.password, user.id)" class="btn-editar-desktop"> Editar </button> </td>
+                        <td> <button (click)="deletarUsuario( user.id )" class="btn-excluir-desktop"> Excluir </button> </td>
+                    </tbody>
+                </table> 
+
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- tablet -->
+
+    <section class="cadastro-tablet">
+        <div class="container-grid cadastro-formulario-tablet">
+            <div class="cadastro-caixa-tablet">
+                <h1 class="cadastro-titulo-tablet">Cadastro</h1>
+                <form class="cadastro-form-tablet">
+
+                    <div class="cadastro-form-caixa-tablet">
+                        <label class="cadastro-form-label-tablet" for="name">Nome</label>
+                        <input class="cadastro-form-input-tablet" type="name" name="name" id="nome-tablet" placeholder="Insira seu nome aqui" required>
+                    </div>
+                    <div class="cadastro-form-caixa-tablet">
+                        <label class="cadastro-form-label-tablet" for="email">Login</label>
+                        <input class="cadastro-form-input-tablet" type="email" name="email" id="name-tablet" placeholder="Ex.: exemplo@email.com" required>
+                    </div>
+
+                    <div class="cadastro-form-caixa-tablet">
+                        <label class="cadastro-form-label-tablet" for="senha">Senha</label>
+                        <input class="cadastro-form-input-tablet" type="password" name="senha" id="senha-tablet" placeholder="Digite sua senha aqui" required>
+                    </div>
+
+                    <div class="cadastro-opcoes-tablet">
+
+                        <div class="cadastrar-tablet"><input type="submit" id="cadastrar-tablet" value="Cadastrar"></div>
+                        <div class="cancelar-listar-tablet">
+                            <input type="submit" id="cancelar-cadastro-tablet" value="Cancelar">
+                            <input type="submit" id="todos-cadastros-tablet" value="Todos os Cadastros">
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Smartphone -->
+
+    <section class="cadastro-smartphone">
+        <div class="container-grid cadastro-formulario-smartphone">
+            <div class="cadastro-caixa-smartphone">
+                <h1 class="cadastro-titulo-smartphone">Cadastro</h1>
+                <form class="cadastro-form-smartphone">
+
+                    <div class="cadastro-form-caixa-smartphone">
+                        <label class="cadastro-form-label-smartphone" for="name">Nome</label>
+                        <input class="cadastro-form-input-smartphone" type="name" name="name" id="nome-smartphone" placeholder="Insira seu nome aqui" required>
+                    </div>
+                    <div class="cadastro-form-caixa-smartphone">
+                        <label class="cadastro-form-label-smartphone" for="email">Login</label>
+                        <input class="cadastro-form-input-smartphone" type="email" name="email" id="name-smartphone" placeholder="Ex.: exemplo@email.com" required>
+                    </div>
+
+                    <div class="cadastro-form-caixa-smartphone">
+                        <label class="cadastro-form-label-smartphone" for="senha">Senha</label>
+                        <input class="cadastro-form-input-smartphone" type="password" name="senha" id="senha-smartphone" placeholder="Digite sua senha aqui" required>
+                    </div>
+
+                    <div class="cadastro-opcoes-smartphone">
+
+                        <div class="cadastrar-smartphone"><input type="submit" id="cadastrar-smartphone" value="Cadastrar"></div>
+                        <div class="cancelar-listar-smartphone">
+                            <input type="submit" id="cancelar-cadastro-smartphone" value="Cancelar">
+                            <input type="submit" id="todos-cadastros-smartphone" value="Todos os Cadastros">
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+

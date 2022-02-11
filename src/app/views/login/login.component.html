@@ -1,0 +1,108 @@
+<!-- -------------------------Login------------------------- -->
+
+
+        <!-- Desktop -->
+
+
+        <section class="login-desktop">
+            <div class="container-grid login-formulario-desktop">
+                <div class="login-formulario-caixa-desktop">
+                    <h1 class="login-titulo-desktop">Fazer Login</h1>
+                    <form class="login-form-desktop" #loginform="ngForm" (ngSubmit)="onSubmit()">
+
+                        <div class="login-form-caixa-desktop">
+                            <label class="login-form-label-desktop" for="email">Login</label>
+                            <input class="login-form-input-desktop" type="email" name="email" id="name-desktop" 
+                                placeholder="Ex.: exemplo@email.com" required [(ngModel)]="loginModel.email">
+                        </div>
+
+                        <div class="login-form-caixa-desktop">
+                            <label class="login-form-label-desktop" for="senha">Senha</label>
+                            <input class="login-form-input-desktop" type="password" name="senha" id="senha-desktop"
+                                placeholder="Digite sua senha aqui" required [(ngModel)]="loginModel.password">
+                        </div>
+
+                        <input type="submit" id="login-form-fazer-desktop" value="Fazer Login">
+
+                    </form>
+
+                    <div class="login-form-divisor-desktop"></div>
+
+                    <div class="login-form-cadastro-desktop">
+                        <p>Não tem conta? <a routerLink="/cadastro">Cadastre-se.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Tablet -->
+
+        <section class="login-tablet">
+            <div class="container-grid login-formulario-tablet">
+                <div class="login-formulario-caixa-tablet">
+                    <h1 class="login-titulo-tablet">Fazer Login</h1>
+                    <form class="login-form-tablet" #loginform="ngForm" (ngSubmit)="onSubmit()">
+
+                        <div class="login-form-caixa-tablet">
+                            <label class="login-form-label-tablet" for="email">Login</label>
+                            <input class="login-form-input-tablet" type="email" name="email" id="name-tablet"
+                                placeholder="Ex.: exemplo@email.com" required [(ngModel)]="loginModel.email">
+                        </div>
+
+                        <div class="login-form-caixa-tablet">
+                            <label class="login-form-label-tablet" for="senha">Senha</label>
+                            <input class="login-form-input-tablet" type="password" name="senha" id="senha-tablet"
+                                placeholder="Digite sua senha aqui" required [(ngModel)]="loginModel.password">
+                        </div>
+
+                        <input type="submit" id="login-form-fazer-tablet" value="Fazer Login">
+
+                    </form>
+
+                    <div class="login-form-divisor-tablet"></div>
+
+                    <div class="login-form-cadastro-tablet">
+                        <p>Não tem conta? <a routerLink="/cadastro">Cadastre-se.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Smartphone -->
+
+
+        <section class="login-smartphone">
+            <div class="container-grid login-formulario-smartphone">
+                <div class="login-formulario-caixa-smartphone">
+                    <h1 class="login-titulo-smartphone">Fazer Login</h1>
+                    <form class="login-form-smartphone" #loginform="ngForm" (ngSubmit)="onSubmit()">
+
+                        <div class="login-form-caixa-smartphone">
+                            <label class="login-form-label-smartphone" for="email">Login</label>
+                            <input class="login-form-input-smartphone" type="email" name="email" id="name-smartphone"
+                                placeholder="Ex.: exemplo@email.com" required [(ngModel)]="loginModel.email">
+                        </div>
+
+                        <div class="login-form-caixa-smartphone">
+                            <label class="login-form-label-smartphone" for="senha">Senha</label>
+                            <input class="login-form-input-smartphone" type="password" name="senha" id="senha-smartphone"
+                                placeholder="Digite sua senha aqui" required [(ngModel)]="loginModel.password">
+                        </div>
+
+                        <input type="submit" id="login-form-fazer-smartphone" value="Fazer Login">
+
+                    </form>
+
+                    <div class="login-form-divisor-smartphone"></div>
+
+                    <div class="login-form-cadastro-smartphone">
+                        <p>Não tem conta? <a routerLink="/cadastro">Cadastre-se.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
